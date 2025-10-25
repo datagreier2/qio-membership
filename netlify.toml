@@ -1,0 +1,12 @@
+[functions]
+  node_bundler = "esbuild"
+
+[[redirects]]
+  from = "/api/vipps/create-agreement"
+  to   = "/.netlify/functions/vipps-create-agreement"
+  status = 200
+
+[[redirects]]
+  from = "/api/vipps/webhook"
+  to   = "/.netlify/functions/vipps-webhook"
+  status = 200
